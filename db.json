@@ -1,9 +1,52 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "hotdogs": [
+    {
+      "id": "1",
+      "type": "The plain hotdog",
+      "capacity": 30,
+      "hotdog_sold": 15,
+      "description": "This is a plain hotdog containing only the bread and the sausage.",
+      "poster": "https://t3.ftcdn.net/jpg/00/42/34/92/360_F_42349239_HyCGLgKEKn2KiRNwvodMOfm98UvvmtHu.jpg"
+    },
+    {
+      "id": "2",
+      "type": "Chicago hotdog",
+      "capacity": 50,
+      "hotdog_sold": 45,
+      "description": "Hotdog,Poppy seed bun,Pickle speer,Celery salt,Tomatoes,Whole pickled peppers,Chopped onions,Neon,Green relish,Mustard.",
+      "poster": "https://static01.nyt.com/images/2022/07/27/dining/27Chicagodogrex/05Chicagodogrex-superJumbo.jpg"
+    },
+    {
+      "id": "3",
+      "type": "BBQ hot dog",
+      "capacity": 50,
+      "hotdog_sold": 31,
+      "description": "Sweet BBQ sauce,Fried Sport,Peppers & Grilled Onions.",
+      "poster": "https://hips.hearstapps.com/hmg-prod/images/bbq-glazed-hot-dogs-with-spicy-slaw-6487945c6a3b6.jpg?crop=0.760xw:0.507xh;0.100xw,0.285xh&resize=1200:*"
+    },
+    {
+      "id": "4",
+      "type": "Greek Gyro",
+      "capacity": 45,
+      "hotdog_sold": 40,
+      "description": "Gyro meat,tzotziki sauce,onions & Feto Cheese.",
+      "poster": "https://potatorolls.com/wp-content/uploads/2020/10/Greek-Dog-960x640.jpg"
+    },
+    {
+     "id": "5",
+      "type": "Maxwell Polish",
+      "capacity": 80,
+      "hotdog_sold": 50,
+      "description": "Caramelized onions & Mustard.",
+      "poster": "https://131299480.cdn6.editmysite.com/uploads/1/3/1/2/131299480/s452917822268194205_p63_i1_w500.png"
+    },
+    {
+      "id": "6",
+      "type": "Spicy",
+      "capacity": 100,
+      "hotdog_sold": 50,
+      "description": "Cheddar,Cheese,Gio,Pineapple,Red pepper.",
+      "poster": "https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/05/07/0/FNM_060120-Hot-Dogs-with-Spicy-Pineapple-Relish_s4x3.jpg.rend.hgtvcom.616.462.suffix/1588879947473.jpeg"
+    }
+  ]
 }
